@@ -1,98 +1,177 @@
 <!DOCTYPE html>
+<!-- Welcome to the source code ;) -->
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Rui's Personal Website</title>
     <link href="Style/Style.css" type="text/css" rel="stylesheet">
 </head>
+
 <body>
-<!-- My Website -->
-<div id="Relative Links">
-    <a href="./Contact.html">Contact</a>
-</div>
-<br>
-<div id="Same page link">
-    <a href="#Intro">Intro</a>
-</div>
-<div id="Headder">
-    <h1 style="color: crimson; font-family: 'Lato', sans-serif">Rui Guo</h1>
-</div>
-<div id="Links">
-    <a href="https://github.com/Ruiguo124" target="_blank">Github</a>
-    <br>
-    <a href="https://www.linkedin.com/in/ruiguo/" target="_blank">Linkedin</a>
-</div>
-<div id="Intro">
-    <h2>About Me</h2>
-    <p class="blue font">
-        Passionate and hardworking Computer Science student completing
-        my second year at McGill University. I have experience with Java,
-        Python, Swift, C, OCaml, F#, C#, Unity, various data structures,
-        algorithms and software design/modelling (UML/Fondue).
-    </p>
-</div>
-<div id="Projects">
-    <h2>Projects</h2>
-    <h3>ConcentrateAI</h3>
-    <h4><strong>Code Jam Hackathon's Computer Vision Winner</strong></h4>
-    <h5>December 2018</h5>
-    <a href="https://github.com/Ruiguo124/ConcentrateAI" target="_blank">Github</a>
-    <ul>
-        <li>
-            Built with a team a web app which uses machine learning to help
-            students study. The AI detects when students start to fall asleep
-            or are dozing off and outputs audio/light waves to stimulate
-            and wake them up.
-        </li>
-        <li>
-            The convolutional neural network was built using Python, TensorFlow,
-            OpenCV-Python and Keras. It was trained using a database of 2423, 24 x 24
-            pixels pictures of people blinking for 10 epochs which gives an accuracy
-            of 93.69%.
-        </li>
-        <li>
-            The web app was built using HTML5 and JavaScript.
-        </li>
-        <img src="./img/AInsurance.png" alt="Image of AInsurance" height="200" width="200"/>
-    </ul>
-</div>
-<!-- Some table bs
-<div id="table">
-    <table>
-        <thead>
-            <tr>
-                <th scope="row">First heading</th>
-                <th scope="col">Second heading</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>first</td>
-            <td>second</td>
-        </tr>
-        <tr>
-            <td>ok</td>
-            <td>no</td>
-        </tr>
-        <tr>
-            <td colspan="2">This columns spans 2 cols</td>
-        </tr>
-        <tr>
-            <td rowspan="2">This data spans 2 rows</td>
-        </tr>
-        <tr>
-            <td>okidoki</td>
-            <td>NotOk</td>
-        </tr>
-        <tfoot>
-            <td>
-                total
-            </td>
-            <td>
-                30?
-            </td>
-        </tfoot>
-    </table>
-</div>
--->
+    <!--
+    TO DO
+    FIRST PAGE:
+    - remove the r from the linkedIn logo
+    - find an open source arrow
+    - find an open source background pic with a blue hue filter on top
+
+
+    OTHER:
+    ADD SKILLS
+    FIS SMALL VERTICAL WINDOW
+    FIX PX -> SOMETHING ELSE FOR BETTER SCALING
+    ADD SMOOTH IN PAGE SCROLLING
+    ADD PARALLAX LAYERS
+    FORMAT:
+        - About Me
+        - Education: finish writing
+        - Projects
+        - Skills
+        - Contact
+    POPUP: welcome to my personal website built with love by me. Note: work in progress
+    -->
+
+    <!-- Header -->
+    <div id="Header">
+
+        <!-- Navigation -->
+        <div id="nav">
+            <div class="navigation">
+                <a href="#Intro">About me</a>
+                <a href="#Education">Education</a>
+                <a href="#Projects">Project</a>
+                <a href="#Contact">Contact me</a>
+            </div>
+        </div>
+        <!-- End Navigation -->
+
+        <h1 id="main-name">RUI GUO</h1>
+
+        <p id="comp-sci">Computer Science Student</p>
+
+        <!-- Links -->
+        <div id="Links">
+            <a href="https://github.com/Ruiguo124" target="_blank"><img src="./img/GitHub-Mark-120px-plus.png"/> </a>
+            <a href="https://www.linkedin.com/in/ruiguo/" target="_blank"><img src="./img/In-Black-121px-R.png"/></a>
+            <a href="https://devpost.com/ruiguo124?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank"
+            ><<img src="./img/icons8-dev-post-120.png"/> </a>
+        </div>
+        <!-- End Links -->
+
+        <!-- arrow -->
+        <div id="arrow">
+            <a href="#Intro">
+                <img src="./img/a7cb4cf6-e69e-43dc-aae0-cb3391850025.png"/>
+            </a>
+        </div>
+        <!-- End arrow -->
+
+    </div>
+    <!-- End Header -->
+
+    <!-- About Me -->
+    <div id="Intro">
+        <h2>About Me</h2>
+        <p>
+            Passionate and hardworking Computer Science student completing
+            my second year at McGill University. I have experience with Java,
+            Python, Swift, C, OCaml, F#, C#, Unity, various data structures,
+            algorithms and software design/modelling (UML/Fondue).
+        </p>
+    </div>
+    <!-- End About Me -->
+
+    <!-- Education -->
+    <div id="Education">
+        <h2>Education</h2>
+        <p>Mcgill</p>
+    </div>
+    <!-- End Education -->
+
+    <!-- Projects -->
+    <div id="Projects">
+        <h2>Projects</h2>
+        <h3>ConcentrateAI</h3>
+        <h4>
+            <strong>Best Idea and Solution for MLH's Local Hack Day at McGill</strong>
+        </h4>
+        <h5>December 2018</h5>
+        <a href="https://github.com/Ruiguo124/ConcentrateAI" target="_blank">Github</a>
+        <ul>
+            <li>
+                Built with a team a web app which uses machine learning to help
+                students study. The AI detects when students start to fall asleep
+                or are dozing off and outputs audio/light waves to stimulate
+                and wake them up.
+            </li>
+            <li>
+                The convolutional neural network was built using Python, TensorFlow,
+                OpenCV-Python and Keras. It was trained using a database of 2423, 24 x 24
+                pixels pictures of people blinking for 10 epochs which gives an accuracy
+                of 93.69%.
+            </li>
+            <li>
+                The web app was built using HTML5 and JavaScript.
+            </li>
+            <img src="./img/AInsurance.png" alt="Image of AInsurance" height="200" width="200"/>
+        </ul>
+        <h3>AInsurance</h3>
+        <h4>
+            <strong>Code Jam Hackathon's Computer Vision Winner</strong>
+        </h4>
+        <h5>November 2018</h5>
+        <a href="https://github.com/Ruiguo124/Ainsurance" target="_blank">Github</a>
+        <ul>
+            <li>
+                Won first place for Computer Vision during McGill's 2018 Code Jam Hackathon (3rd Overall)
+            </li>
+            <li>
+                Designed and developed with a 3-person team a real-time Insurance Calculator which uses
+                machine learning to calculate an insurance premium fee based on the user's emotions and
+                depression levels.
+            </li>
+            <li>
+                Used Python, TensorFlow, OpenCV-Python and Keras to build a multi-layer (3) convolutional
+                neural network.
+            </li>
+            <li>
+                CNN trained with 30 thousand, 48x48 pixels pictures for 15 epochs using Amazon Web Service
+                and Google Cloud (accuracy of 68%).
+            </li>
+        </ul>
+        <h3>This website</h3>
+        <h4><strong>Only price won is knowledge</strong></h4>
+        <h5>January 2018</h5>
+        <a href="https://github.com/Ruiguo124/Ainsurance" target="_blank">Github</a>
+        <ul>
+            <li>
+                Learned HTML, CSS, JS in 2 days just in time for internship applications.
+            </li>
+            <li>
+                Designed and developed by me.
+            </li>
+            <li>
+                A website built with HTML, CSS, JS which showcases my skills and projects.
+            </li>
+        </ul>
+    </div>
+    <!-- End Projects -->
+
+    <!-- Contact -->
+    <div id="Contact">
+        <h2>Contacts</h2>
+        <p class="center">Ruiguo555@gmail.com</p>
+    </div>
+    <!-- End Contact -->
+
+    <!-- footer -->
+    <footer>
+        <div class="make-by">
+            <p class="center">Made with ♥ from scratch by Rui</p>
+        </div>
+    </footer>
+    <!-- end footer -->
 </body>
+
 </html>
