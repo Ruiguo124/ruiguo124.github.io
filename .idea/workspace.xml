@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413da86f-87ef-4725-b776-5f86c617f84f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Website/.idea/Website.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/Contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/Style/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/GitHub-Mark-120px-plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/In-Black-121px-R.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/In-Black-121px-R22222.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/LearnTheMachine.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/LearnTheMachine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/Screen Shot 2019-01-13 at 10.08.55 PM.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/a7cb4cf6-e69e-43dc-aae0-cb3391850025.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/asphalt-pedestrian-lane-puddle-1776630.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/icons8-dev-post-120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/icons8-dev-post-12022222.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/img/learnthemachine_Y6c_icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website/learnthemachine_Y6c_icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +17,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -81,9 +64,9 @@
       <list>
         <option value="$PROJECT_DIR$/Website/Main.html" />
         <option value="$PROJECT_DIR$/Website/Contact.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Website/Style/Style.css" />
         <option value="$PROJECT_DIR$/Website/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -158,12 +141,12 @@
       <workItem from="1547521594449" duration="642000" />
       <workItem from="1547529498453" duration="124000" />
       <workItem from="1547565455454" duration="291000" />
-      <workItem from="1547566672210" duration="680000" />
+      <workItem from="1547566672210" duration="998000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42220000" />
+    <option name="totallyTimeSpent" value="42538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -226,7 +209,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
