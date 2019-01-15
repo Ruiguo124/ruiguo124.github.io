@@ -5,13 +5,9 @@ body, html{
 }
 
 body{
-    font-family: "Al Tarikh";
+    font-family: 'Lato', sans-serif;
     background-color: white;
     margin: 0;
-    /*
-    overflow: scroll;
-    overflow-x: hidden;
-    */
 }
 
 #Header h1{
@@ -19,39 +15,13 @@ body{
     border: 1px none black;
     border-radius: 5px;
     height: 100px;
-    /*
-    width: 400px;
-    margin: 0 auto;
-    /*background-color: white;*/
-
     margin-bottom: 0;
     margin-top: 0;
     text-align: center;
     color: white;
     font-family: sans-serif;
-}
+    letter-spacing: 2px;
 
-h2{
-    color: indianred;
-    text-align: center;
-}
-
-h3{
-    color: chocolate;
-    text-align: center;
-}
-
-p{
-    font-family: "Al Tarikh";
-    color: lightblue;
-    font-size: 1.125rem;
-    font-weight: bold;
-    /*
-    width: 100%;
-    border: 3px solid black;
-    border-radius: 15px;
-    padding: 15px;
-    */
 }
 
 /* First Page */
@@ -67,48 +37,37 @@ p{
 
     background-size:100% 100%;
     background-repeat: no-repeat;
-
-    /*fix weird formating???
-    min-height: 720px;
-    overflow: hidden;
-    */
 }
 
-#Header h1{
-    text-align: center;
-}
+    #Header h1{
+        text-align: center;
+    }
 
 
-#nav{
-    height: 35%;
-}
+    #nav{
+        height: 35%;
+    }
 
 /* Top navigation */
 .navigation {
     padding: 20px 0px;
-    width: 600px;
     background-color: white;
-
     margin: 0 auto;
-
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-
-
-
     position: relative;
     text-align: center;
-    /*width: 100%;*/
-
+    width: 55%;
 }
 
 .navigation a {
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 30px;
+
+    padding: 2%;
 
 
-    color: black;
+    color: cornflowerblue;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
 
@@ -117,7 +76,7 @@ p{
 .navigation a:hover {
     font-weight: 100;
     letter-spacing: 2px;
-    padding: 30px;
+    padding: 2%;
     color: red;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -150,11 +109,6 @@ p{
     /* make logo jump when hovered over */
     margin-bottom: 0;
     padding-bottom: 0;
-
-    /*
-    text-align: center;
-    margin: 0 auto;
-    */
 }
 
 #Links img:hover{
@@ -162,10 +116,6 @@ p{
     width: 30px;
     padding: 15px;
     opacity: 0.3;
-    /*
-    text-align: center;
-    margin: 0 auto;
-    */
 }
 
 /* down arrow */
@@ -186,8 +136,165 @@ p{
     opacity: 0.3;
 }
 
-/* Only used in "Made with love By Rio */
-.center{
+#About{
+    min-height: 8em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#About p{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 1.125rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 2rem;
+}
+
+
+#Edu{
+    background-color: #f2f2f5;
+    border-top: 1px solid #dcd9d9;
+    border-bottom: 1px solid #dcd9d9;
+    overflow: hidden;
+}
+
+.Education{
+    min-height: 8em;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0.625rem;
+}
+
+.Education p{
+    padding-bottom: 0.5em;
+}
+
+.school{
+    width: 50%;
+    height: 1rem;
+    float: left;
+}
+
+.date{
+    margin-left: 50%;
+    height: 1rem;
+    color: gray;
+}
+
+.degree{
+    margin-top: 1.4rem;
+    color: gray;
+}
+
+
+.sub-section{
+    padding-top: 1em;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    text-align: left;
+    font-size: 2em;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+#Projects{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#Projects h2{
+    padding-top: 1em;
+
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+    text-align: left;
+    font-size: 2em;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.sub-project h3{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: cornflowerblue;
+}
+
+.sub-project h4{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    padding-top: 0.7rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1em;
+}
+
+.sub-project h5{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    padding-top: 0.7rem;
+    color: gray;
+    margin-bottom: 0;
+    padding-bottom: 0.7rem;
+}
+
+.sub-project p{
+    padding-bottom: 2em;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 1.125rem;
+}
+
+.sub-project a{
+    margin-top: 0;
+    padding-top: 0.7rem;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.sub-project a:hover{
+    margin-top: 0;
+    padding-top: 0.7rem;
+    text-decoration: none;
+    color: red;
+}
+
+#Contact{
+    border-top: 1px solid #dcd9d9;
+    border-bottom: 1px solid #dcd9d9;
+    background-color: #f2f2f5;
+}
+
+#Contact p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.25rem;
+}
+
+#address{
+    color: cornflowerblue;
+    font-weight: bold;
+    padding-bottom: 2.5rem;
+}
+
+#foot{
+    background-color: cornflowerblue;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#foot p{
     text-align: center;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
 }
 
