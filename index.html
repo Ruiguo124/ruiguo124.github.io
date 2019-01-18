@@ -3,6 +3,11 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <title>Rui's Portfolio</title>
+    <link href="Style/Style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132449276-1"></script>
     <script>
@@ -13,57 +18,53 @@
         gtag('config', 'UA-132449276-1');
     </script>
 
-
-    <meta charset="UTF-8">
-    <title>Rui's Portfolio</title>
-    <link href="Style/Style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="shortcut icon" href="learnthemachine_Y6c_icon.ico">
-
+    <!--fb-->
+    <meta property="og:url"                 content="http://www.ruig.me" />
+    <meta property="og:title"               content="Rui's Portfolio" />
+    <meta property="og:description"         content="My personal website that I use as a portfolio." />
+    <meta property="og:image"               content="./img/a7cb4cf6-e69e-43dc-aae0-cb3391850025.png" />
 
 </head>
 
 <body>
     <!-- Header -->
-    <div id="Header">
+    <div id="header">
 
         <!-- Navigation -->
         <div id="nav">
             <div class="navigation">
-                <a href="#About">About me</a>
-                <a href="#Edu">Education</a>
-                <a href="#Projects">Project</a>
-                <a href="#Contact">Contact me</a>
+                <a href="#about">About me</a>
+                <a href="#edu">Education</a>
+                <a href="#projects">Project</a>
+                <a href="#contact">Contact me</a>
             </div>
         </div>
         <!-- End Navigation -->
 
         <h1 id="main-name">RUI GUO</h1>
-
         <p id="comp-sci">Computer Science Student</p>
 
         <!-- Links -->
-        <div id="Links">
-            <a href="https://github.com/Ruiguo124" target="_blank"><img src="./img/GitHub-Mark-120px-plus.png"/> </a>
-            <a href="https://www.linkedin.com/in/ruiguo/" target="_blank"><img src="./img/In-Black-121px-R22222.png"/></a>
+        <div id="links">
+            <a href="https://github.com/Ruiguo124" target="_blank"><img src="./img/GitHub-Mark-120px-plus.png" alt="Image of Github logo"/> </a>
+            <a href="https://www.linkedin.com/in/ruiguo/" target="_blank"><img src="./img/In-Black-121px-R22222.png" alt="Image of Linkedin logo"/></a>
             <a href="https://devpost.com/ruiguo124?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank"
-            ><<img src="./img/icons8-dev-post-120.png"/> </a>
+            ><<img src="./img/icons8-dev-post-120.png" alt="Image of Devpost logo"/> </a>
         </div>
         <!-- End Links -->
 
         <!-- arrow -->
         <div id="arrow">
-            <a href="#About">
-                <img src="./img/a7cb4cf6-e69e-43dc-aae0-cb3391850025.png"/>
+            <a href="#about">
+                <img src="./img/a7cb4cf6-e69e-43dc-aae0-cb3391850025.png" alt="Custom designed aesthetically pleasing down arrow"/>
             </a>
         </div>
         <!-- End arrow -->
-
     </div>
     <!-- End Header -->
 
     <!-- About Me -->
-    <div id="About">
+    <div id="about">
         <h2 class="sub-section">About Me</h2>
         <p>
             Passionate and hardworking Computer Science student completing
@@ -76,9 +77,9 @@
     <!-- End About Me -->
 
     <!-- Education -->
-    <div id="Edu">
+    <div id="edu">
         <h2 class="sub-section">Education</h2>
-        <div class="Education">
+        <div class="education">
             <div class="school">
                 <p>McGill University</p>
             </div>
@@ -89,7 +90,7 @@
                 <p>Bachelor of Science in Computer Science</p>
             </div>
         </div>
-        <div class="Education">
+        <div class="education">
             <div class="school">
                 <p>Marianopolis College</p>
             </div>
@@ -104,7 +105,7 @@
     <!-- End Education -->
 
     <!-- Projects -->
-    <div id="Projects">
+    <div id="projects">
         <h2>Projects</h2>
         <div class="sub-project">
             <h3>AInsurance</h3>
@@ -113,7 +114,6 @@
             </h4>
             <h5>November 2018</h5>
             <a href="https://github.com/Ruiguo124/Ainsurance" target="_blank">Link</a>
-
             <p>
                 Real-time insurance calculator which uses machine learning to calculate a premium fee based on
                 the user's emotions and depression levels. Used Python, TensorFlow, OpenCV-Python Keras to
@@ -122,7 +122,6 @@
                 Computer Vision (3rd overall) during McGill's 2018 Code Jam Hackathon.
             </p>
         </div>
-
         <div class="sub-project">
             <h3>ConcentrateAI</h3>
             <h4>
@@ -136,18 +135,17 @@
                 JavaScript. The AI was built using Python, TensorFlow, OpenCV-Python and Keras.
                 It was then trained using a database of 2423 pictures of people blinking for
                 10 epochs, which results in an accuracy of 93.69%. Won the best Idea and Solution
-                award during MLH's hack day at McGill 2018.
+                award during MLH's local hack day at McGill 2018.
             </p>
         </div>
     </div>
     <!-- End Projects -->
 
     <!-- Contact -->
-    <div id="Contact">
+    <div id="contact">
         <h2 class="sub-section">Contact</h2>
-
         <p>Reach me at: </p>
-        <p id="address">ruiguo555@gmail.com</p>
+        <p id="address">Ruiguo555@gmail.com</p>
     </div>
     <!-- End Contact -->
 
