@@ -1,6 +1,10 @@
 /* Welcome to the source code ;)*/
 
 /****** General Styles *********/
+html {
+    scroll-behavior: smooth;
+}
+
 body, html{
     height: 100%;
 }
@@ -110,12 +114,6 @@ body{
     height: 60px;
     width: 60px;
     text-align: center;
-}
-#arrow img:hover{
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    opacity: 0.3;
 }
 
 

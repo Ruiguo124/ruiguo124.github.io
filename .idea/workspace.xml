@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="413da86f-87ef-4725-b776-5f86c617f84f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/InsaneArrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/arrow.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-icon-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-icon-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-icon-36x36.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-icon-36x36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-icon-48x48.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-icon-48x48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/android-icon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-icon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-114x114.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-114x114.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-120x120.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-120x120.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-152x152.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-152x152.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-180x180.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-180x180.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-57x57.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-57x57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-60x60.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-60x60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-72x72.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-72x72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-76x76.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-76x76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-96x96.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/ms-icon-144x144.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/ms-icon-144x144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/ms-icon-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/ms-icon-150x150.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/ms-icon-310x310.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/ms-icon-310x310.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon/ms-icon-70x70.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/ms-icon-70x70.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,20 +19,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="2775">
+              <caret line="185" column="45" selection-start-line="185" selection-start-column="45" selection-end-line="185" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jump.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/ScrollScript.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Style/Style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="-1855">
+              <caret line="97" column="18" lean-forward="true" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -64,15 +61,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/div</find>
-      <find>div</find>
-      <find>arr</find>
-      <find>center</find>
       <find>font-siz</find>
       <find>em</find>
       <find>margin</find>
@@ -97,6 +91,12 @@
       <find>About</find>
       <find>contact</find>
       <find>address</find>
+      <find>onC</find>
+      <find>scro</find>
+      <find>durat</find>
+      <find>scroll</find>
+      <find>arro</find>
+      <find>jump</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,15 +110,19 @@
         <option value="$PROJECT_DIR$/Website/Style/Style.css" />
         <option value="$PROJECT_DIR$/Website/index.html" />
         <option value="$PROJECT_DIR$/Style/Style.css" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/js/scroll.js" />
+        <option value="$PROJECT_DIR$/js/jump.js" />
+        <option value="$PROJECT_DIR$/js/SmoothScroll.js" />
+        <option value="$PROJECT_DIR$/js/ScrollScript.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="730" />
-    <option name="y" value="23" />
     <option name="width" value="710" />
-    <option name="height" value="788" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -131,6 +135,16 @@
             <path>
               <item name="ruig" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruig" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruig" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ruig" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ruig" type="462c0819:PsiDirectoryNode" />
+              <item name="Style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,21 +205,24 @@
       <workItem from="1547597485976" duration="660000" />
       <workItem from="1547685740117" duration="645000" />
       <workItem from="1547843687473" duration="5681000" />
+      <workItem from="1551473821381" duration="2611000" />
+      <workItem from="1551476824018" duration="1053000" />
+      <workItem from="1551997524784" duration="3255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50964000" />
+    <option name="totallyTimeSpent" value="57883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19309373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18816067" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -242,20 +259,35 @@
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jump.js" />
     <entry file="file://$PROJECT_DIR$/learnthemachine_Y6c_icon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Style/Style.css">
+    <entry file="file://$PROJECT_DIR$/js/jump.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ScrollScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="2775">
+          <caret line="185" column="45" selection-start-line="185" selection-start-column="45" selection-end-line="185" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Style/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1855">
+          <caret line="97" column="18" lean-forward="true" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
         </state>
       </provider>
     </entry>
