@@ -24,10 +24,10 @@ body{
 
     margin: 0;
     padding: 0;
-    background-color: cornflowerblue;
-
-    background-size:100% 100%;
-    background-repeat: no-repeat;
+    background: url("../img/cat4.png") no-repeat center center fixed;
+    background-size:cover;
+    background-blend-mode: overlay;
+    /*background-color: cornflowerblue;*/
 }
 #header h1{
     font-size: 5rem;
@@ -154,6 +154,20 @@ body{
     height: 1rem;
     float: left;
 }
+.gpa{
+    width: 50%;
+    height: 1rem;
+    float: left;
+}
+.gpa p{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: cornflowerblue;
+    font-size: 0.92em;
+}
 .date{
     margin-left: 50%;
     height: 1rem;
@@ -176,10 +190,56 @@ body{
 }
 
 
-/****** Projects Styles *********/
-#projects{
+
+/****** Experience Styles *********/
+#exp{
     margin-left: 5%;
     margin-right: 5%;
+}
+#exp h2{
+    padding-top: 1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 2em;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+.sub-exp h3{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: cornflowerblue;
+}
+.sub-exp h4{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    padding-top: 0.7rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 1em;
+}
+.sub-exp h5{
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    padding-top: 0.7rem;
+    color: gray;
+    margin-bottom: 0;
+    padding-bottom: 0.7rem;
+}
+.sub-exp p{
+    padding-bottom: 2em;
+    font-family: sans-serif;
+    color: gray;
+    font-size: 1.125rem;
+}
+
+/****** Projects Styles *********/
+#projects{
+    background-color: #f2f2f5;
+    border-top: 1px solid #dcd9d9;
+    border-bottom: 1px solid #dcd9d9;
+    overflow: hidden;
 }
 #projects h2{
     padding-top: 1em;
@@ -189,12 +249,18 @@ body{
     font-size: 2em;
     font-weight: 300;
     font-family: 'Lato', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 .sub-project h3{
     font-family: 'Lato', sans-serif;
     margin-bottom: 0;
     padding-bottom: 0;
     color: cornflowerblue;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 .sub-project h4{
     font-family: 'Lato', sans-serif;
@@ -203,6 +269,9 @@ body{
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 .sub-project h5{
     font-family: 'Lato', sans-serif;
@@ -211,32 +280,41 @@ body{
     color: gray;
     margin-bottom: 0;
     padding-bottom: 0.7rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 .sub-project p{
     padding-bottom: 2em;
     font-family: sans-serif;
     color: gray;
     font-size: 1.125rem;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 .sub-project a{
     margin-top: 0;
     padding-top: 0.7rem;
     text-decoration: none;
     color: cornflowerblue;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 .sub-project a:hover{
     margin-top: 0;
     padding-top: 0.7rem;
     text-decoration: none;
     color: red;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 
 /****** Contact Styles *********/
 #contact{
-    border-top: 1px solid #dcd9d9;
-    border-bottom: 1px solid #dcd9d9;
-    background-color: #f2f2f5;
 }
 #contact p{
     margin-left: 5%;
